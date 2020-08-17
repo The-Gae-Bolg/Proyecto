@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &20743582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 44.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510100145096928262, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155894619794664500, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: m_Name
+      value: Bosque
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
 --- !u!1 &77068455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,7 +1225,7 @@ Transform:
   - {fileID: 1931612128416458022}
   - {fileID: 1773511604}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &448395074
 GameObject:
@@ -2332,7 +2389,7 @@ Transform:
   - {fileID: 904261556}
   - {fileID: 462529157}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904261554
 GameObject:
@@ -2476,12 +2533,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922992223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 0.69, z: 0}
+  m_LocalPosition: {x: -3.6, y: 20.9, z: 0}
   m_LocalScale: {x: 6, y: 6, z: 0.81}
   m_Children:
   - {fileID: 519420032}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &922992227
 Animator:
@@ -3895,7 +3952,78 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1436916128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1436916130}
+  - component: {fileID: 1436916129}
+  m_Layer: 0
+  m_Name: __tiled2unity_importer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1436916129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436916128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6d7f8492faefe4ca919913c737a425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tiled2UnityXmlPath: Assets/Tiled2Unity/Imported/Bosque.tiled2unity.xml
+  ExporterTiled2UnityVersion: 1.0.13.2
+  ImportWait_Textures: []
+  ImportWait_Materials:
+  - Overworld.mat
+  ImportWait_Meshes:
+  - Bosque_mesh_0001.obj
+  - Bosque_mesh_0002.obj
+  - Bosque_mesh_0003.obj
+  - Bosque_mesh_0004.obj
+  ImportWait_Prefabs:
+  - Bosque.prefab
+  ImportComplete_Textures: []
+  ImportComplete_Materials:
+  - Overworld.mat
+  ImportComplete_Meshes:
+  - Bosque_mesh_0002.obj
+  - Bosque_mesh_0001.obj
+  - Bosque_mesh_0003.obj
+  - Bosque_mesh_0004.obj
+  ImportComplete_Prefabs: []
+  ImportingAssets:
+  - Assets/Tiled2Unity/Materials/Overworld.mat
+  - Assets/Tiled2Unity/Meshes/Bosque/Bosque_mesh_0001.obj
+  - Assets/Tiled2Unity/Meshes/Bosque/Bosque_mesh_0002.obj
+  - Assets/Tiled2Unity/Meshes/Bosque/Bosque_mesh_0003.obj
+  - Assets/Tiled2Unity/Meshes/Bosque/Bosque_mesh_0004.obj
+  - Assets/Tiled2Unity/Prefabs/Bosque.prefab
+--- !u!4 &1436916130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436916128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1466731104 stripped
 GameObject:
@@ -6701,7 +6829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2149312082611921196, guid: 7be5b6e5a367d704e8dc4f5bd6fd123d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2149312082611921196, guid: 7be5b6e5a367d704e8dc4f5bd6fd123d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
