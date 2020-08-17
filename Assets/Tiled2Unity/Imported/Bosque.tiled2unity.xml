@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 8/16/2020 7:52:47 PM-->
+<!--Last exported: 8/16/2020 10:41:03 PM-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="Bosque_mesh_0001" material="Overworld" />
   <AssignMaterial mesh="Bosque_mesh_0002" material="Overworld" />
@@ -38,11 +38,23 @@
           <Path>0,0 4.125,0.02083331 17.0625,0.0625 17,-29.875 8.1875,-29.875 8.1875,-26.6875 15.6875,-26.6875 15.6875,-24.0625 14.75,-24.0625 14.8125,-22.0625 13.8125,-22.125 13.8125,-21 12.8125,-20.9375 12.8125,-17.9375 11.97919,-18.10419 11.89581,-17.04169 10.77081,-16.91669 10.77081,-14.77081 11.875,-14.72919 11.91669,-13.79169 12.875,-13.8125 12.83331,-12.83331 13.89581,-12.83331 13.8125,-11.66669 14.83331,-11.72919 14.8125,-10.8125 15.83331,-10.8125 15.70831,0.08333313</Path>
         </PolygonCollider2D>
       </GameObject>
+      <GameObject name="PolygonObject" x="3" y="-0.20833312" rotation="0" layer="">
+        <PolygonObjectComponent tmx-object-id="11" tmx-object-name="" tmx-object-type="" tmx-object-x="48" tmx-object-y="3.33333" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,0 14.79169,0.04166669 14.79169,-0.2083331 0.4166669,-0.2083331 0.08333313,-0.375</Path>
+        </PolygonCollider2D>
+      </GameObject>
       <GameObject name="PolygonObject" x="7.25" y="-1.75" rotation="0" layer="">
         <PolygonObjectComponent tmx-object-id="10" tmx-object-name="" tmx-object-type="" tmx-object-x="116" tmx-object-y="28" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
         <PolygonCollider2D>
           <Path>-0.08333313,1.041669 1.458331,1.041669 1.416669,0 0,0</Path>
         </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolylineObject" x="8.958312" y="-5.875" rotation="0" layer="">
+        <PolylineObjectComponent tmx-object-id="12" tmx-object-name="" tmx-object-type="" tmx-object-x="143.333" tmx-object-y="94" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <EdgeCollider2D>
+          <Points>0,0 -0.02083334,-1.458334 -0.04166669,-2.916669</Points>
+        </EdgeCollider2D>
       </GameObject>
       <GameObject name="PolygonObject" x="14.125" y="-9.6875" rotation="0" layer="">
         <PolygonObjectComponent tmx-object-id="6" tmx-object-name="" tmx-object-type="" tmx-object-x="226" tmx-object-y="155" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
@@ -65,13 +77,19 @@
       <GameObject name="PolylineObject" x="9.791688" y="-26.791687" rotation="0" layer="">
         <PolylineObjectComponent tmx-object-id="8" tmx-object-name="" tmx-object-type="" tmx-object-x="156.667" tmx-object-y="428.667" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
         <EdgeCollider2D>
-          <Points>0,0 0,0.6875 0,1.375</Points>
+          <Points>0.1666669,-3.291669 0.1041668,-0.9791687 0.04166669,1.333331</Points>
         </EdgeCollider2D>
       </GameObject>
       <GameObject name="PolylineObject" x="11.166688" y="-26.833313" rotation="0" layer="">
         <PolylineObjectComponent tmx-object-id="9" tmx-object-name="" tmx-object-type="" tmx-object-x="178.667" tmx-object-y="429.333" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
         <EdgeCollider2D>
-          <Points>0,0 -0.02083334,0.7083344 -0.04166669,1.416669</Points>
+          <Points>-0.08333313,-3.166669 -0.04166657,-0.9166656 -2.083331E-08,1.333338</Points>
+        </EdgeCollider2D>
+      </GameObject>
+      <GameObject name="PolylineObject" x="2.95833135" y="-29.833313" rotation="0" layer="">
+        <PolylineObjectComponent tmx-object-id="13" tmx-object-name="" tmx-object-type="" tmx-object-x="47.3333" tmx-object-y="477.333" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <EdgeCollider2D>
+          <Points>0,0 2.395834,0 4.791669,0</Points>
         </EdgeCollider2D>
       </GameObject>
       <GameObject name="PolygonObject" x="7.75" y="-29.875" rotation="0" layer="">
