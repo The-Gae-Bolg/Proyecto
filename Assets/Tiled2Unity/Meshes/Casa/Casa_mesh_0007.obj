@@ -1,0 +1,38 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'Casa_mesh_0007.obj'
+
+# Vertices (Count = 12)
+v -7 -7 0
+v -8 -7 0
+v -8 -6 0
+v -7 -6 0
+v -7 -8 0
+v -8 -8 0
+v -8 -7 0
+v -7 -7 0
+v -7 -9 0
+v -8 -9 0
+v -8 -8 0
+v -7 -8 0
+
+# Texture cooridinates (Count = 8)
+vt 0.425 0.8
+vt 0.45 0.8
+vt 0.45 0.84
+vt 0.425 0.84
+vt 0.425 0.76
+vt 0.45 0.76
+vt 0.425 0.72
+vt 0.45 0.72
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g Casa_mesh_0007
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+f 5/5/1 6/6/1 7/2/1 8/1/1
+f 9/7/1 10/8/1 11/6/1 12/5/1
+
