@@ -45,6 +45,8 @@ public class warp : MonoBehaviour
         yield return new WaitForSeconds(fadeTime);
         
         col.transform.position = target.transform.GetChild(0).position;
+
+        Camera.main.GetComponent<MainCamera>().SetBound(targetMap);
         
         FadeOut();
         col.GetComponent<Animator> ().enabled = true;

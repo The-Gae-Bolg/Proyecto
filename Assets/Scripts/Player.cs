@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class Player : MonoBehaviour
 {
@@ -11,10 +12,18 @@ public class Player : MonoBehaviour
     Rigidbody2D rb2d;
     Vector2 mov;
 
+    public GameObject initialMap;
+
+    void Awake(){
+        Assert.IsNotNull(initialMap);
+    }
+
     void Start()
     {
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+
+        Camera.main.GetComponent<MainCamera>().SetBound(initialMap);
     }
 
     // Update is called once per frame
