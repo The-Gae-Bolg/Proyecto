@@ -20,12 +20,13 @@ public class MainCamera : MonoBehaviour
             transform.position.z
         );
     }
-
+    //Obtiene el tamaño de los tiles del mapa
     public void SetBound (GameObject map) {
         Tiled2Unity.TiledMap config = map.GetComponent<Tiled2Unity.TiledMap>();
         float cameraSize = Camera.main.orthographicSize;
 
-        if(map.tag == "Casa"){
+        //La camara se centra al entrar a la casa
+        if(map.tag == "Mini_Zonas"){
             tLX = map.transform.position.x + cameraSize + 1;
             tLY = map.transform.position.y - cameraSize;
             bRX = map.transform.position.x + config.NumTilesWide - cameraSize - 1;
