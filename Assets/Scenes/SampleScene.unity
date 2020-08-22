@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bosque
       objectReference: {fileID: 0}
+    - target: {fileID: 3397715914477403460, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
+      propertyPath: TileWidth
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7098524003302412912, guid: 6f4bed69981db584891ac1d3f943f960, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14
@@ -328,6 +332,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -412,6 +417,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AssetsPPU: 16
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
+  m_UpscaleRT: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!1001 &643177028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -669,7 +694,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800504169}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 0.999, y: 0.999, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -790,8 +815,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922992223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0.76, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 0.81}
+  m_LocalPosition: {x: -2.5, y: 0.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -849,18 +874,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00017574057, y: -0.033129826}
+  m_Offset: {x: 0, y: -0.2875467}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.22}
+    oldSize: {x: 0.9375, y: 1.375}
     newSize: {x: 0.9375, y: 1.375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.07558251, y: 0.09927407}
+  m_Size: {x: 0.6441883, y: 0.4959303}
   m_EdgeRadius: 0
 --- !u!4 &969034295 stripped
 Transform:
