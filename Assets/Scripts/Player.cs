@@ -42,6 +42,9 @@ public class Player : MonoBehaviour
             anim.SetBool("walking", false);
         }
 
+        if(Input.GetKeyDown("space")) {
+            anim.SetTrigger("attacking");
+        }
     }
 
     void FixedUpdate () {
