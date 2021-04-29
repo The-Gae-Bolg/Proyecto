@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour {
     public static bool GameIsPaused = false;
@@ -32,13 +33,11 @@ public class PauseMenu : MonoBehaviour {
     }
 
     public void LoadMenu() {
-        Debug.Log("Loading menu...");
-        // Time.timeScale = 1f
-        // Ir al menú
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void QuitGame() {
-        Debug.Log("Quitting game...");
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
         #else
