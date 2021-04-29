@@ -9,7 +9,7 @@ public class warp : MonoBehaviour
     public GameObject target;
 
     // Para el texto
-    public GameObject area;
+    GameObject area;
 
     // Para almacenar el mapa de destino
     public GameObject targetMap;
