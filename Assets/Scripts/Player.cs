@@ -49,11 +49,25 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown("space") && !attacking) {
             anim.SetTrigger("attacking");
         }
+
+        // Vamos actualizando la posición de la colisión de ataque
+        if (mov != Vector2.zero) {
+            attackCollider.offset = new Vector2(mov.x/2, mov.y/2);
+        }
+        
+        if (attacking) {
+            float playbackTime = stateInfo.normalizedTime;
+            if (playbackTime > 0.33 && playbackTime < 0.66) {
+                attackCollider.enabled = true;
+            } else {
+                attackCollider.enabled = false;
+            }
+        }
     }
 
     void FixedUpdate () {
         // Nos movemos en el fixed por las físicas
-        rb2d.MovePosition(rb2d.position + mov * speed * Time.deltaTime);
+        rb2d.MovePosition(rb2d.position + mov.normalized * speed * Time.deltaTime);
     }
 
 }
