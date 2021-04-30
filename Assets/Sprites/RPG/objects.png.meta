@@ -10,7 +10,7 @@ TextureImporter:
     second: objects_1
   - first:
       213: 8333231276030249781
-    second: objects_2
+    second: Hierba
   - first:
       213: -4430392651179603617
     second: objects_3
@@ -97,13 +97,13 @@ TextureImporter:
     second: objects_30
   - first:
       213: 4698315425400886581
-    second: objects_31
+    second: Hierba Destroy_0
   - first:
       213: 2197855871317943228
     second: objects_32
   - first:
       213: 741922582067912797
-    second: objects_33
+    second: Hierba Destroy_1
   - first:
       213: -5884573130030058871
     second: objects_34
@@ -178,13 +178,13 @@ TextureImporter:
     second: objects_57
   - first:
       213: 8277753512624892258
-    second: objects_58
+    second: Hierba Destroy_2
   - first:
       213: -6998631668141411158
     second: objects_59
   - first:
       213: 9171275872940762989
-    second: objects_60
+    second: Hierba Destroy_3
   - first:
       213: -7079720951457237320
     second: objects_61
@@ -1124,7 +1124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_2
+      name: Hierba
       rect:
         serializedVersion: 2
         x: 33
@@ -1544,7 +1544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_31
+      name: Hierba Destroy_0
       rect:
         serializedVersion: 2
         x: 63
@@ -1565,7 +1565,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_33
+      name: Hierba Destroy_1
       rect:
         serializedVersion: 2
         x: 95
@@ -1712,7 +1712,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_58
+      name: Hierba Destroy_2
       rect:
         serializedVersion: 2
         x: 127
@@ -1733,7 +1733,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_60
+      name: Hierba Destroy_3
       rect:
         serializedVersion: 2
         x: 159
