@@ -42,7 +42,11 @@ public class Player : MonoBehaviour
             anim.SetBool("walking", false);
         }
 
-        if(Input.GetKeyDown("space")) {
+        // Buscamos el estado actual mirando la información del animador
+        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+        bool attacking = stateInfo.IsName("Player_Attack");
+
+        if(Input.GetKeyDown("space") && !attacking) {
             anim.SetTrigger("attacking");
         }
     }

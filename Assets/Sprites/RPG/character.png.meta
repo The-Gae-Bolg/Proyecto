@@ -254,10 +254,10 @@ TextureImporter:
       name: character_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 228
-        width: 15
-        height: 22
+        x: 0
+        y: 224
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: character_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 228
-        width: 15
-        height: 21
+        x: 16
+        y: 224
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +296,10 @@ TextureImporter:
       name: character_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 228
-        width: 15
-        height: 22
+        x: 32
+        y: 224
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: character_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 228
-        width: 15
-        height: 21
+        x: 48
+        y: 224
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: character_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 196
-        width: 13
-        height: 22
+        x: 0
+        y: 192
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +443,10 @@ TextureImporter:
       name: character_9
       rect:
         serializedVersion: 2
-        x: 18
-        y: 196
-        width: 13
-        height: 21
+        x: 16
+        y: 192
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +464,10 @@ TextureImporter:
       name: character_10
       rect:
         serializedVersion: 2
-        x: 34
-        y: 196
-        width: 13
-        height: 22
+        x: 32
+        y: 192
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: character_11
       rect:
         serializedVersion: 2
-        x: 50
-        y: 196
-        width: 13
-        height: 21
+        x: 48
+        y: 192
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,9 +654,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 164
-        width: 15
-        height: 23
+        y: 160
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,9 +675,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 164
-        width: 15
-        height: 22
+        y: 160
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,9 +696,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 164
-        width: 15
-        height: 23
+        y: 160
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,9 +717,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 164
-        width: 15
-        height: 22
+        y: 160
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,10 +821,10 @@ TextureImporter:
       name: character_27
       rect:
         serializedVersion: 2
-        x: 1
-        y: 132
-        width: 13
-        height: 22
+        x: 0
+        y: 128
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
       name: character_28
       rect:
         serializedVersion: 2
-        x: 17
-        y: 132
-        width: 13
-        height: 21
+        x: 16
+        y: 128
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,10 +863,10 @@ TextureImporter:
       name: character_29
       rect:
         serializedVersion: 2
-        x: 33
-        y: 132
-        width: 13
-        height: 22
+        x: 32
+        y: 128
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,10 +884,10 @@ TextureImporter:
       name: character_30
       rect:
         serializedVersion: 2
-        x: 49
-        y: 132
-        width: 13
-        height: 21
+        x: 48
+        y: 128
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: Player_Attack_Down_1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 101
-        width: 16
-        height: 21
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 9
       pivot: {x: 0.5, y: 0.52380955}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1073,10 +1073,10 @@ TextureImporter:
       name: Player_Attack_Down_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 99
-        width: 16
-        height: 22
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 9
       pivot: {x: 0.5, y: 0.54545456}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1094,10 +1094,10 @@ TextureImporter:
       name: Player_Attack_Down_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 97
-        width: 16
-        height: 24
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 9
       pivot: {x: 0.5, y: 0.5833334}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,10 +1115,10 @@ TextureImporter:
       name: Player_Attack_Down_4
       rect:
         serializedVersion: 2
-        x: 104
-        y: 97
-        width: 16
-        height: 24
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 9
       pivot: {x: 0.5, y: 0.5833334}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,10 +1136,10 @@ TextureImporter:
       name: Player_Attack_Up_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 69
-        width: 17
-        height: 21
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1157,10 +1157,10 @@ TextureImporter:
       name: Player_Attack_Up_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 69
-        width: 17
-        height: 20
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1178,10 +1178,10 @@ TextureImporter:
       name: Player_Attack_Up_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 68
-        width: 15
-        height: 22
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1199,10 +1199,10 @@ TextureImporter:
       name: Player_Attack_Up_4
       rect:
         serializedVersion: 2
-        x: 104
-        y: 68
-        width: 15
-        height: 22
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1220,10 +1220,10 @@ TextureImporter:
       name: Player_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 36
-        width: 16
-        height: 21
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1241,10 +1241,10 @@ TextureImporter:
       name: Player_Attack_Right_2
       rect:
         serializedVersion: 2
-        x: 41
-        y: 36
-        width: 20
-        height: 21
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1262,10 +1262,10 @@ TextureImporter:
       name: Player_Attack_Right_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 36
-        width: 15
-        height: 22
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1283,10 +1283,10 @@ TextureImporter:
       name: Player_Attack_Right_4
       rect:
         serializedVersion: 2
-        x: 105
-        y: 36
-        width: 15
-        height: 22
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1304,10 +1304,10 @@ TextureImporter:
       name: Player_Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 13
-        height: 22
+        x: 1
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1325,10 +1325,10 @@ TextureImporter:
       name: Player_Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 4
-        width: 21
-        height: 22
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1346,10 +1346,10 @@ TextureImporter:
       name: Player_Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 68
-        y: 4
-        width: 18
-        height: 22
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1367,10 +1367,10 @@ TextureImporter:
       name: Player_Attack_Left_4
       rect:
         serializedVersion: 2
-        x: 101
-        y: 4
-        width: 18
-        height: 22
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
