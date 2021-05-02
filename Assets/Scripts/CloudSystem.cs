@@ -30,9 +30,9 @@ using UnityEngine;
                 var cloud = clouds[i];
                 var speed = Mathf.Lerp(minSpeed, windSpeed, speeds[i]);
                 cloud.position += windDirection * speed;
-                if (cloud.localPosition.x < -resetRadius - 1)//Verifica que la nube en X este fuera del radio
+                if (cloud.localPosition.x < -resetRadius - 2)//Verifica que la nube en X este fuera del radio
                 {
-                    cloud.position = new Vector3 (transform.position.x + resetRadius, Random.Range(-resetRadius+1, resetRadius-1), 0);
+                    cloud.position = new Vector3 (transform.position.x + resetRadius +2, transform.position.y + Random.Range(-resetRadius +1, resetRadius -1), 0);
                 }   //La nueva posicion X de la nube se calcula sumando el radio al centro
             }       //Para la posicion Y se genera un numero random entre el radio negativo +1 y positivo -1 
         }
