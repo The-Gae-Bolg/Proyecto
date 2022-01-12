@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Log : Enemy {
+    private Rigidbody2D myRigidBody;
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
@@ -10,6 +11,7 @@ public class Log : Enemy {
 
     // Start is called before the first frame update
     void Start() {
+        myRigidBody = GetComponent<Rigidbody2D>();
         target = GameObject.FindWithTag("Player").transform;
     }
 
@@ -22,7 +24,8 @@ public class Log : Enemy {
         float distance = Vector3.Distance(target.position, transform.position);
 
         if (distance <= chaseRadius && distance > attackRadius) {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            Vector3 position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            myRigidBody.MovePosition(position);
         }
     }
 }

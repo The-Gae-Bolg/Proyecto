@@ -9,6 +9,7 @@ TagManager:
   - Casa
   - Secret
   - Attack
+  - Enemy
   layers:
   - Default
   - TransparentFX
