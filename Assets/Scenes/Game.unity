@@ -328,7 +328,7 @@ MonoBehaviour:
   health: 2
   enemyBase: Larry the Log
   baseAttack: 1
-  moveSpeed: 5
+  moveSpeed: 2
   target: {fileID: 0}
   chaseRadius: 5
   attackRadius: 1.2
@@ -2186,7 +2186,7 @@ MonoBehaviour:
   health: 2
   enemyBase: Larry the Log
   baseAttack: 1
-  moveSpeed: 5
+  moveSpeed: 2
   target: {fileID: 0}
   chaseRadius: 5
   attackRadius: 1.2
@@ -3149,7 +3149,7 @@ MonoBehaviour:
   health: 2
   enemyBase: Larry the Log
   baseAttack: 1
-  moveSpeed: 5
+  moveSpeed: 2
   target: {fileID: 0}
   chaseRadius: 5
   attackRadius: 1.2
@@ -4858,7 +4858,7 @@ MonoBehaviour:
   health: 2
   enemyBase: Larry the Log
   baseAttack: 1
-  moveSpeed: 5
+  moveSpeed: 2
   target: {fileID: 0}
   chaseRadius: 5
   attackRadius: 1.2
@@ -5836,7 +5836,7 @@ MonoBehaviour:
   health: 2
   enemyBase: Larry the Log
   baseAttack: 1
-  moveSpeed: 5
+  moveSpeed: 2
   target: {fileID: 0}
   chaseRadius: 5
   attackRadius: 1.2
@@ -6910,6 +6910,10 @@ PrefabInstance:
     - target: {fileID: 3621748224484157827, guid: f79c44a4e837a0b4dbe91758bdc339e8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621748224484157830, guid: f79c44a4e837a0b4dbe91758bdc339e8, type: 3}
+      propertyPath: moveSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f79c44a4e837a0b4dbe91758bdc339e8, type: 3}
