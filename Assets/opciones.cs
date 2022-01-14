@@ -11,6 +11,11 @@ public class opciones : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void menuOpcion(string escena)
+    {
+        SceneManager.LoadScene(escena);
+    }
+
     // Update is called once per frame
     public void salir()
     {
