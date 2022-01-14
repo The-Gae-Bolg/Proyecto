@@ -19,7 +19,11 @@ public class opciones : MonoBehaviour
     // Update is called once per frame
     public void salir()
     {
-        Application.Quit();
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
 
     public void pause()
