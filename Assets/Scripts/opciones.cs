@@ -21,4 +21,14 @@ public class opciones : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void pause()
+    {
+        Time.timeScale = 0f;
+    }
+
+    public void reanudar()
+    {
+        Time.timeScale = 1f;
+    }
 }
