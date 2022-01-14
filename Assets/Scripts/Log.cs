@@ -9,8 +9,8 @@ public class Log : Enemy {
     public float chaseRadius;
     public float attackRadius;
     public Transform homePosition;
-    public bool awake;
-    public bool chace;
+    private bool awake;
+    private bool chace;
 
     // Start is called before the first frame update
     void Start() {
@@ -29,7 +29,7 @@ public class Log : Enemy {
     void CheckDistance() {
         float distance = Vector3.Distance(target.position, transform.position);
         Vector3 dir = (target.position - transform.position).normalized;
-    
+
         anim.SetFloat("movX", dir.x);
         anim.SetFloat("movY", dir.y);
 
@@ -40,7 +40,7 @@ public class Log : Enemy {
         }
 
         if (chace) {
-            if (distance <= chaseRadius && distance > attackRadius) {
+            if (distance > attackRadius) {
                 Vector3 position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
                 myRigidBody.MovePosition(position);
                 anim.SetBool("walking", true);
@@ -50,9 +50,7 @@ public class Log : Enemy {
             }
 
             if (distance > chaseRadius) {
-                anim.SetBool("wakeUp", false);
-                awake = false;
-                chace = false;
+                StartCoroutine(WakeDown(distance));
             }
         }
     }
@@ -60,6 +58,16 @@ public class Log : Enemy {
     IEnumerator WakeUp() {
         yield return new WaitForSeconds(1);
         chace = true;
+    }
+
+    IEnumerator WakeDown(float distance) {
+        yield return new WaitForSeconds(3);
+        if (distance > chaseRadius) {
+            anim.SetBool("wakeUp", false);
+            anim.SetBool("walking", false);
+            awake = false;
+            chace = false;
+        }
     }
 
 }
